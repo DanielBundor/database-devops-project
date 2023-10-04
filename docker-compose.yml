@@ -1,0 +1,22 @@
+version: '3'
+services:
+  database:
+    image: mysql:latest  # Use the appropriate database image
+    container_name: my-dev-db
+    environment:
+      MYSQL_ROOT_PASSWORD: your_root_password
+      MYSQL_DATABASE: your_database_name
+      MYSQL_USER: your_db_user
+      MYSQL_PASSWORD: your_db_password
+    ports:
+      - "3306:3306"  # Adjust the port mapping as needed
+    volumes:
+      - ./db_data:/var/lib/mysql  # Mount a volume for data persistence
+    networks:
+      - my-network
+
+  # Add additional services or containers as needed for your application
+
+networks:
+  my-network:
+    driver: bridge
