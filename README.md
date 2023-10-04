@@ -1,6 +1,6 @@
 # Database DevOps Project
 
-Welcome to the Database DevOps Project for [Your Project Name]. This project aims to demonstrate best practices for managing database schema changes, data seeding, and database unit testing.
+Welcome to the Database DevOps Project for a fictional e-commerce application. This project aims to demonstrate best practices for managing database schema changes, data seeding, and database unit testing.
 
 ## Overview
 
