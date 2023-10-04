@@ -20,8 +20,7 @@ In this project, we'll cover the following aspects of Database DevOps:
 - [Database Unit Testing](#database-unit-testing)
 - [Deployment and Rollback](#deployment-and-rollback)
 - [Contributing](#contributing)
-- [License](#license)
-
+  
 ## Prerequisites
 
 Before you begin, make sure you have the following prerequisites:
@@ -36,7 +35,7 @@ Follow these steps to get started with the Database DevOps project:
 1. Clone this repository to your local machine:
 
    ```shell
-   git clone https://github.com/your-username/database-devops-project.git
+   git clone https://github.com/DanielBundor/database-devops-project.git
    cd database-devops-project
 
 ## Additional Setup Instructions, if applicable.
