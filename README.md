@@ -40,7 +40,7 @@ Follow these steps to get started with the Database DevOps project:
 
 ## Additional Setup Instructions, if applicable.
 
--Database Migration
+- Database Migration
 
 We manage database schema changes using migration scripts located in the db/migrations/ directory. Each script represents a specific version of the database schema. To apply migrations, use the deploy.sh script:
 
@@ -48,7 +48,7 @@ We manage database schema changes using migration scripts located in the db/migr
 
 ./scripts/deploy.sh
 ```
--Data Seeding
+- Data Seeding
 
 The seed_data.sql script in the db/seed/ directory is responsible for populating the database with initial data. To seed data, run:
 
@@ -56,15 +56,15 @@ The seed_data.sql script in the db/seed/ directory is responsible for populating
 
 mysql -h your_db_host -u your_db_user -p your_db_name < db/seed/seed_data.sql
 ```
--Database Unit Testing
+- Database Unit Testing
 
 We've included unit test scripts in the tests/db/ directory to ensure the correctness of database queries and functionality. To run tests, execute the appropriate scripts and review the results.
 
--Deployment and Rollback
+- Deployment and Rollback
 
 Use the provided deploy.sh and rollback.sh scripts in the scripts/ directory to automate the deployment of schema changes and rollback in case of issues.
 
--Contributing
+- Contributing
 
 We welcome contributions! If you'd like to contribute to this project, please feel free to do so by sending in your pull requests for revision before approval. Thank you!
 
